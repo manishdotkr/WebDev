@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <fieldset>
+        <legend><h2>Submitting login requests</h2></legend>
+        <br>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Login Info</legend>
+                <label for="username">Username</label>
+                <input type="text" name="myusername" id="username" required>
+                <label for="password">Password</label>
+                <input type="password" name="mypassword" id="password" required>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend> <h2>Google Hijack</h2> </legend>
+        <br>
+        <form action="https://www.google.com/search" target="_blank">
+            <label for="search">Search</label>
+            <input type="text" name="q" id="search" >
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+
+    <br>
+    <br>
+    
+    <fieldset>
+        <legend> <h2>Youtube Hijack</h2> </legend>
+        <br>
+        <form action="https://www.youtube.com/results" target="_blank">
+            <label for="search">Search</label>
+            <input type="text" name="search_query" id="search" >
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+
+
+</body>
+</html>

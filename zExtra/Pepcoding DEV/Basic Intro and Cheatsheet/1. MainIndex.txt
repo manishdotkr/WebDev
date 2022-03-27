@@ -1,0 +1,11 @@
+
+Google -> MDN Javascript (bible of Javascript);
+
+//************************************
+
+console.log('hello world 1')
+
+const log = console.log
+log('hello world 2')
+
+//************************************
