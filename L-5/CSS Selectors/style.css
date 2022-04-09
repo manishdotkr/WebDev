@@ -1,0 +1,31 @@
+
+/* Universal Selector */
+*{
+    /* border: 2px dashed black; */
+    font-size: 50px;
+
+}
+
+
+/* ID Selector */
+#movies{
+    color: red;
+}
+
+
+/* Class Selector */
+.fav_movies{
+    font-weight: bold;
+    color: blue;
+}
+
+/* Element Selector */
+input{
+    background-color: lightblue;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    background-color: grey;
+}
+
